@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. ./.env
+
 cookies="zeit_sso_201501=$ZEIT_SSO_201501; zeit_sso_piano_201501=$ZEIT_SSO_PIANO_201501; zeit_sso_session_201501=$ZEIT_SSO_SESSION_201501; dzcookie=$DZCOOKIE"
 
 MAX_EDITIONS_PER_YEAR="${MAX_EDITIONS_PER_YEAR:-60}"
